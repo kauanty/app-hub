@@ -1,0 +1,19 @@
+{
+    "name": "app-organizer",
+    "version": "1.0.0",
+    "description": "An application to organize all your apps in one place",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager . AppOrganizer --platform=win32 --arch=x64 --out=dist --overwrite --icon=.icons;default-icon.png"
+    },
+    "devDependencies": {
+      "electron": "^24.0.0",
+      "electron-packager": "^15.0.0"
+    },
+    "dependencies": {
+      "path": "^0.12.7",
+      "fs": "^0.0.1-security",
+      "child_process": "^1.0.2"
+    }
+  }
