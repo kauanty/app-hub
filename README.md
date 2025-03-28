@@ -47,14 +47,4 @@ Hub Apps is a simple and efficient application that allows users to organize and
 2. Add files by selecting them through the interface.
 3. Rename files by clicking on their names.
 4. Change file icons by hovering over the image and selecting a new one.
-5. Remove files with the delete button (confirmation required).
-
-## Packaging the Application
-
-To create an executable version of the application:
-
-```sh
-npm run package
-```
-
-This will generate a standalone executable file that can be used without requiring additional dependencies.
+5. Remove files with the delete button.
